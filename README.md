@@ -4,11 +4,11 @@ Durante esse primeiro projeto, foi proposto a criação de um README com base no
 
 ##
 
-| SPRINT    | Conteúdos    |
-| --------- | ------------ |
-| [Dia 1]() | Git e GitLab |
-| [Dia 2]() | Scrum Ágil   |
-| [Dia 3]() |
+| SPRINT                                                                                   | Conteúdos    |
+| ---------------------------------------------------------------------------------------- | ------------ |
+| [Dia 1](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/Dia%201.md?ref_type=heads) | Git e GitLab |
+| [Dia 2]()                                                                                | Scrum Ágil   |
+| [Dia 3]()                                                                                |
 
 [Dia 4]()
 [Dia 5]()
