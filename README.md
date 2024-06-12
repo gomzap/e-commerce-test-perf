@@ -1,3 +1,22 @@
-Dia 1
--Durante o dia um da primeira sprint a ser realizada, pratiquei o uso do git e gitlab, aprendi os principais comandos fundamentais para a realização do versionamento e compartilhamento de códigos e projetos.
--Também pude avançar na trilha de aprendizado da udemy, obsorvendo as informações da leitura para comunicação em projetos e para entender a Matriz de Eisenhower. Ao final adiantei o conteúdo em vídeo dos fundamentos do SCRUM Agile.
+# PROJETO SPRINT 1
+
+Durante esse primeiro projeto, foi proposto a criação de um README com base nos conteúdos disponibilizados para realizar objetivo de versionamento dos exercícios propostos durante a Sprint e organização/resumo de todos conteúdos em arquivos separados por dias para a apresentação ao final.
+
+##
+
+| SPRINT    | Conteúdos    |
+| --------- | ------------ |
+| [Dia 1]() | Git e GitLab |
+| [Dia 2]() | Scrum Agil   |
+| [Dia 3]() |
+
+[Dia 4]()
+[Dia 5]()
+[Dia 6]()
+[Dia 7]()
+[Dia 8]()
+[Dia 9]()
+
+## Principais habilidades adquiridas
+
+-
