@@ -1,21 +1,22 @@
-# PROJETO SPRINT 1
+# PROJETO SPRINT 1 - Estrutural
+
+## Processos Ágeis e Fundamentos de Teste
 
 Durante esse primeiro projeto, foi proposto a criação de um README com base nos conteúdos disponibilizados para realizar o objetivo de versionamento dos exercícios propostos durante a Sprint e organização/resumo de todos conteúdos em arquivos separados por dias para a apresentação ao final.
 
 ##
 
-| SPRINT                                                                                   | Conteúdos    |
-| ---------------------------------------------------------------------------------------- | ------------ |
-| [Dia 1](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/Dia%201.md?ref_type=heads) | Git e GitLab |
-| [Dia 2]()                                                                                | Scrum Ágil   |
-| [Dia 3]()                                                                                |
-
-[Dia 4]()
-[Dia 5]()
-[Dia 6]()
-[Dia 7]()
-[Dia 8]()
-[Dia 9]()
+| SPRINT                                                                                   | Conteúdos                                                               |
+| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| [Dia 1](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/Dia%201.md?ref_type=heads) | Git e GitLab                                                            |
+| [Dia 2]()                                                                                | Scrum Ágil                                                              |
+| [Dia 3]()                                                                                | Fundamentos do teste de software​​​​​​​                                 |
+| [Dia 4]()                                                                                | Fundamentos do teste de software​​​​​​​ Parte 2                         |
+| [Dia 5]()                                                                                | Fundamentos do teste de software​​​​​​​ + Myers e o princípio de pareto |
+| [Dia 6]()                                                                                | Fundamentos do teste de software (Back-End)                             |
+| [Dia 7]()                                                                                | MasterClass SQL                                                         |
+| [Dia 8]()                                                                                | MasterClass NoSQL                                                       |
+| [Dia 9]()                                                                                | MasterClass CyberSecurity                                               |
 
 ## Principais habilidades adquiridas
 
