@@ -9,8 +9,8 @@ Durante esse primeiro projeto, foi proposto a criação de um README com base no
 | SPRINT                                                                                   | Conteúdos                                                               |
 | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | [Dia 1](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/Dia%201.md?ref_type=heads) | Git e GitLab                                                            |
-| [Dia 2]()                                                                                | Scrum Ágil                                                              |
-| [Dia 3]()                                                                                | Fundamentos do teste de software​​​​​​​                                 |
+| [Dia 2](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/Dia2.md?ref_type=heads)    | Scrum Ágil                                                              |
+| [Dia 3](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/Dia3.md?ref_type=heads)    | Fundamentos do teste de software​​​​​​​                                 |
 | [Dia 4]()                                                                                | Fundamentos do teste de software​​​​​​​ Parte 2                         |
 | [Dia 5]()                                                                                | Fundamentos do teste de software​​​​​​​ + Myers e o princípio de pareto |
 | [Dia 6]()                                                                                | Fundamentos do teste de software (Back-End)                             |
