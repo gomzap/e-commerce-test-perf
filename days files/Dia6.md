@@ -1,3 +1,3 @@
 # Dia 6
 
-<img src="/assets/img/mapa_mental.jpg">
+<img src="/assets/mapa_mental.jpg">
