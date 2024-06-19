@@ -1,4 +1,4 @@
-# Dia 7 📑 - SQL
+# Dia 7 - SQL 📑
 
 Neste dia nos foi proposta a realização de exercício prático de SQL com o arquivo "database_challenge.sql".
 
@@ -67,7 +67,7 @@ DELETE FROM usuarios
 WHERE email = 'peterparker@marvel.com';
 ```
 
-### Agora com base na tabela de Produtos, você deve:
+## Agora com base na tabela de Produtos, você deve:
 
 1. Realizar uma consulta que apresente produtos com descrição vazia;
 

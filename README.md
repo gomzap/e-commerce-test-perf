@@ -14,7 +14,7 @@
 | [Dia 4](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/days%20files/Dia4.md)                | Fundamentos do teste de software​​​​​​​ Parte 2                         |
 | [Dia 5](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/days%20files/Dia5.md?ref_type=heads) | Fundamentos do teste de software​​​​​​​ + Myers e o princípio de pareto |
 | [Dia 6](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/days%20files/Dia6.md)                | Fundamentos do teste de software (Back-End)                             |
-| [Dia 7]()                                                                                          | MasterClass SQL                                                         |
+| [Dia 7](https://gitlab.com/sprint1compass/Sprint1/-/blob/main/days%20files/Dia7.md?ref_type=heads) | MasterClass SQL                                                         |
 | [Dia 8]()                                                                                          | MasterClass NoSQL                                                       |
 | [Dia 9]()                                                                                          | MasterClass CyberSecurity                                               |
 
