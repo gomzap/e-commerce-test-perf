@@ -86,7 +86,7 @@ Result:
 5. Realizar uma consulta para deletar o usuário com e-mail "peterparker@marvel.com".
 
 ```
-db.collection.deleteMany({ email: 'peterparker@marvel.com' })
+db.collection.deleteOne({ email: 'peterparker@marvel.com' })
 ```
 
 Result:
