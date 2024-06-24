@@ -32,4 +32,6 @@ A cada dia adicionei um arquivo em .md como uma espécie de diário para as ativ
 
 #
 
-![gif](https://media.licdn.com/dms/image/C4E22AQGnyTKmQ2RqYQ/feedshare-shrink_2048_1536/0/1603977366858?e=2147483647&v=beta&t=N56PRA4brBNhncciypC21MZylSgjcHS-2qJynyQQfMU)
+<div align="center">
+![gif](https://i.gifer.com/origin/d9/d9042f5b041f6f1ad56e5b3321dfd50e_w200.gif)
+</div>
