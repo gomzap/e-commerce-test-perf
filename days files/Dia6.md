@@ -18,7 +18,7 @@ Na base, temos os testes de unidade, onde verificamos o funcionamento da menor u
 Entre essas duas camadas, temos os testes de integração. A ideia deles é verificar se um conjunto de unidades se comporta da maneira correta, só que de forma menos abrangente do que os testes de ponta a ponta.
 
 <div align="center">
-    <img width="tamanho da imagem" title="piramide de teste" src="/assets/piramidetest">
+    <img src="/assets/piramidetest">
 </div>
 
 ##
