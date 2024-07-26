@@ -21,8 +21,6 @@
     Faça o vínculo do bug no Epic e Story correspondentes;
     Faça a classificação da causa do bug em dev/análise/massa/ambiene.
 
-#
-
 - Classificação dos bugs
 
 #
@@ -32,8 +30,8 @@
     MASSA: Inconsistência nos dados utilizados para testes.
     AMBIENTE: Falha no ambiente que está sendo utilizado para testes. Nesse caso pode ser necessário entrar em contato com a fornecedora do produto ou administrador do sistema.
 
-#
-
 #### Dia 5 - Gerenciamento, Ciclos e Reports de testes​​​​​​​
 
 - Atividade: Uso/Migração do Jira + Test Cycles
+
+#### Dia 6, 7, 8 ,9 - Execução do challenge e mentorias
