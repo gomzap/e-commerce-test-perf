@@ -6,6 +6,31 @@
 
 [![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
+#### Sobre o projeto
+
+Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática de gerenciamento de um e-commerce. Permitindo um controle rápido, eficaz através de uma interface RESTful e para treinamento de testes manuais e automatizados.
+
+#### Funcionalidades
+
+- Realizar Login
+- Listar e cadastrar usuários
+- Buscar usuário por ID
+- Excluir e editar usuário
+- Cadastrar, editar e excluir produtos
+- Listar produtos cadastrados
+- Buscar produtos por ID
+- Cadastrar carrinho
+- Listar carrinhos cadastrados
+- Buscar carrinho por ID
+- Excluir carrinho e retornar produtos para estoque
+
+#### Tecnologias utilizadas
+
+- **Postman**
+- **Jira Atlassian**
+- **RESTful API ServeRest**
+- **Node.js**
+
 #### Como testar? 📑
 
 - Acessar a API <a href="https://compassuol.serverest.dev/" target="_blank">Serverest</a>
