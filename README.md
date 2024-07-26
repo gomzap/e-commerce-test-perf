@@ -80,7 +80,10 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 
 #### Casos para automação de testes 🤖
 
-- Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação.
+Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação:
+
+- Status CODE 200
+- Validade Bearer Token
 
 #### Como foi executado o projeto? 📂✔
 
