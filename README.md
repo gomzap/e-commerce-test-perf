@@ -82,7 +82,7 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 
 Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação:
 
-- Status CODE 200
+- Para todos os status CODE
 - Validade Bearer Token
 
 #### Como foi executado o projeto? 📂✔
@@ -91,14 +91,44 @@ Foram selecionados os fluxos principais da aplicação, que não podem parar par
   /usuários
   /login
   /produtos
+  /carrinho
 
-Seus testes foram feitos com base aos critérios de aceitação das histórias de usuários.
+Seus testes foram realizados com base aos critérios de aceitação das histórias de usuários.
 
 #
 
 #### Diretório do GitLab 🦊
 
 - Foi organizado em pastas com todo o conteúdo das sprints durante o programa de capacitação, na WIKI também é possível encontrar os arquivos da primeira sprint, templates e principais documentos do projeto.
+
+#### Projeto Calculadora.js 🔢
+
+**Para instalar:**
+​​​​​​​
+Versionamento pelo <a href="https://git-scm.com/" target="_blank">GIT</a>
+instale uma IDE - <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>
+instale o NodeJS - <a href="https://nodejs.org/en/download/" target="_blank">NodeJS</a>
+instale a ferramenta <a href="https://mochajs.org/" target="_blank">Mocha</a> para disponibilizar a estrutura para os testes.
+instale o <a href="https://www.chaijs.com/​​​​​​​" target="_blank">Chai</a> para isponibilizar os métodos para validarmos as informações em nossos testes.
+
+**Configurando:**
+inicializando o **node.js** em uma pasta
+
+```
+npm init -y
+```
+
+No package.json já dentro da **IDE** escolhida adicionar as estruturas do **ecmascript 6**
+
+```
+¨type¨: module
+```
+
+Agora instale as bibliotecas **Mocha** e **Chai** no terminal
+
+```
+npm i -D mocha chai
+```
 
 #### Contribuídor 📌
 
