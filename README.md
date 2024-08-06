@@ -12,13 +12,28 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 #### Funcionalidades
 
-- Realizar Login
-- Listar e cadastrar usuários
-- Buscar usuário por ID
-- Excluir e editar usuário
-- Cadastrar, editar e excluir produtos
+**LOGIN** - Autentique o seu usuário para montar um carrinho e, se for administrador, gerenciar os produtos
+
+- POST /login - Realizar Login
+
+**Usuários** - Gerencie os usuários, consulte dados para login e cadastre administrador
+
+- GET /usuarios - Listar e cadastrar usuários
+- POST /usuarios - Cadastrar usuário
+- GET /usuarios/{\_id} - Buscar usuário por ID
+- DELETE /usuarios/{\_id} - Excluir usuário
+- PUT /usuarios/{\_id} - Editar usuário
+
+**Produtos**
+
+- Cadastrar
+- editar
+- excluir produtos
 - Listar produtos cadastrados
-- Buscar produtos por ID
+- Buscar produtos por
+
+**Carrinho**
+
 - Cadastrar carrinho
 - Listar carrinhos cadastrados
 - Buscar carrinho por ID
@@ -35,6 +50,7 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 - Acessar a API <a href="https://compassuol.serverest.dev/" target="_blank">Serverest</a>
 - Instalar o <a href="https://www.postman.com/" target="_blank">Postman</a>
+- Instalar o Node.js
 
 ##### ACESSE O **MAPA MENTAL** PRODUZIDO PARA ANÁLISE DA API <a href=" " target="_blank"> CLIQUE AQUI</a>!
 
@@ -85,12 +101,15 @@ Foram selecionados os fluxos principais da aplicação, que não podem parar par
 - Para todos os status CODE
 - Validade Bearer Token
 
-#### Como foi executado o projeto? 📂✔
+#### Como foi executado a organização do projeto? 📂✔
 
-- Foi dividido em 3 Epics para realizar a visão macro dos endpoints da API
+- Foi dividido em 4 epics para realizar a visão macro dos endpoints da API, utilizando a ferramenta Jira para realização do plano de teste e casos de testes.
   /usuários
+
   /login
+
   /produtos
+
   /carrinho
 
 Seus testes foram realizados com base aos critérios de aceitação das histórias de usuários.
@@ -101,15 +120,27 @@ Seus testes foram realizados com base aos critérios de aceitação das históri
 
 - Foi organizado em pastas com todo o conteúdo das sprints durante o programa de capacitação, na WIKI também é possível encontrar os arquivos da primeira sprint, templates e principais documentos do projeto.
 
-#### Projeto Calculadora.js 🔢
+#### - Exercícios JavaScript
+
+Exercícios propostos para fixação de conhecimento sobre a linguagem de programação JavaScript durante a sprint 4.
+Os arquivos se encontram na pasta 'sprint4' do diretório.
+
+#### - Projeto Calculadora.js 🔢
+
+Projeto proposto de uma calculadora durante a sprint 4 com a finalidade de realização da instalação e funcionamento dos códigos com métodos robustos na classe calculadora.js e arquivos de teste com testes eficientes.
+Os arquivos se encontram na pasta 'sprint4' do diretório.
 
 **Para instalar:**
 ​​​​​​​
 Versionamento pelo <a href="https://git-scm.com/" target="_blank">GIT</a>
-instale uma IDE - <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>
-instale o NodeJS - <a href="https://nodejs.org/en/download/" target="_blank">NodeJS</a>
-instale a ferramenta <a href="https://mochajs.org/" target="_blank">Mocha</a> para disponibilizar a estrutura para os testes.
-instale o <a href="https://www.chaijs.com/​​​​​​​" target="_blank">Chai</a> para isponibilizar os métodos para validarmos as informações em nossos testes.
+
+Instale uma IDE - <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>
+
+Instale o NodeJS - <a href="https://nodejs.org/en/download/" target="_blank">NodeJS</a>
+
+Instale a ferramenta <a href="https://mochajs.org/" target="_blank">Mocha</a> para disponibilizar a estrutura para os testes.
+
+Instale o <a href="https://www.chaijs.com/​​​​​​​" target="_blank">Chai</a> para disponibilizar os métodos para validarmos as informações em nossos testes.
 
 **Configurando:**
 inicializando o **node.js** em uma pasta
