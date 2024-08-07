@@ -30,7 +30,7 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 - editar
 - excluir produtos
 - Listar produtos cadastrados
-- Buscar produtos por
+- Buscar produtos por ID
 
 **Carrinho**
 
@@ -104,6 +104,7 @@ Foram selecionados os fluxos principais da aplicação, que não podem parar par
 #### Como foi executado a organização do projeto? 📂✔
 
 - Foi dividido em 4 epics para realizar a visão macro dos endpoints da API, utilizando a ferramenta Jira para realização do plano de teste e casos de testes.
+  <br/>
   /usuários
 
   /login
@@ -128,10 +129,11 @@ Os arquivos se encontram na pasta 'sprint4' do diretório.
 #### - Projeto Calculadora.js 🔢
 
 Projeto proposto de uma calculadora durante a sprint 4 com a finalidade de realização da instalação e funcionamento dos códigos com métodos robustos na classe calculadora.js e arquivos de teste com testes eficientes.
-Os arquivos se encontram na pasta 'sprint4' do diretório.
+Os arquivos se encontram na pasta 'sprint4' do diretório. Pode acessar a bateria de testes da calculadora com o seguinte caminho: sprint4 -> mochai-chai -> test -> calculadora-spec.js
 
 **Para instalar:**
-​​​​​​​
+
+​​
 Versionamento pelo <a href="https://git-scm.com/" target="_blank">GIT</a>
 
 Instale uma IDE - <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>
