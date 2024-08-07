@@ -12,6 +12,6 @@ A partir do terceiro dia, demos início ao estudo relacionado ao conteúdo de ja
 - Variáveis, constantes, tipos, objetos, arrays, funções, operadores, condicionais, laços de repetição, assim como atividades propostas para a fixação do conhecimento aplicado.
 
 Depois, foi passado frameworks complementares, o Mocha que disponibiliza a estrutura para os testes através do "describe, it, beforeEach, after" etc. E o Chai disponibiliza os métodos para validarmos as informações em nossos testes como "should, expect e assert".
-Também foi proposto uma atividade com métodos robustos na classe calculadora.js para prática de testes com Mocha e Chai.
+Também foi proposto uma atividade com métodos robustos na classe calculadora.js para prática de testes com Mocha e Chai tomando como base o TDD.
 
 Ao final foi realizado o curso e a prova AWS Partner no AWS SkillBuilde.
