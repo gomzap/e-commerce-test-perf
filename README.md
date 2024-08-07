@@ -10,7 +10,7 @@
 
 Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática de gerenciamento de um e-commerce. Permitindo um controle rápido, eficaz através de uma interface RESTful e para treinamento de testes manuais e automatizados.
 
-#### Funcionalidades
+#### Funcionalidades e endpoints
 
 **LOGIN** - Autentique o seu usuário para montar um carrinho e, se for administrador, gerenciar os produtos
 
