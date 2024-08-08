@@ -26,18 +26,21 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 **Produtos**
 
-- Cadastrar
-- editar
-- excluir produtos
-- Listar produtos cadastrados
-- Buscar produtos por ID
+- GET /produtos - Listar produtos cadastrados
+- POST /produtos - Cadastrar produto
+- GET /produtos/{\_id} - Buscar produtos por ID
+- DELETE /produtos/{\_id} - Excluir produto
+- PUT /produtos/{\_id} - Editar produto
 
 **Carrinho**
 
-- Cadastrar carrinho
-- Listar carrinhos cadastrados
-- Buscar carrinho por ID
-- Excluir carrinho e retornar produtos para estoque
+- GET /carrinho - Listar carrinhos cadastrados
+- POST /carrinho - Cadastrar carrinhos
+- GET /carrinhos/{\_id} - Buscar carrinho por ID
+- DELETE /carrinhos/concluir-compra - Ao concluir a compra, o carrinho é excluído
+- DELETE /carrinhos/cancelar-compra - Excluir carrinho e retornar produtos para estoque
+
+#
 
 #### Tecnologias utilizadas
 
@@ -54,7 +57,7 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 ##### ACESSE O **MAPA MENTAL** PRODUZIDO PARA ANÁLISE DA API <a href=" " target="_blank"> CLIQUE AQUI</a>!
 
-<img src="/assets/ServeRest.png">
+<img src="/assets/xmindServeRest.png">
 
 #
 
@@ -90,7 +93,7 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 
 #
 
-#### Ferramenta para controle 🔎
+#### Ferramenta para controle e Plano de Testes com Casos de Testes 🔎
 
 - Todos os casos e planejamento de testes estão disponibilizados pelo **Jira Atlassian** com a ferramenta **QAlity** para a organização dos casos de teste.
 
@@ -98,8 +101,11 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 
 Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação:
 
-- Para todos os status CODE
-- Validade Bearer Token
+- Verificação para todos os status CODE
+- Verificar a validade Bearer Token de 10 minutos
+- Verificar se senha tenha entre 5 e 10 caracteres
+- Verificar se o email já foi cadastrado
+- Verificar se o login está funcionando corretamente
 
 #### Como foi executado a organização do projeto? 📂✔
 
@@ -121,7 +127,7 @@ Seus testes foram realizados com base aos critérios de aceitação das históri
 
 - Foi organizado em pastas com todo o conteúdo das sprints durante o programa de capacitação, na WIKI também é possível encontrar os arquivos da primeira sprint, templates e principais documentos do projeto.
 
-#### - Exercícios JavaScript
+#### - Exercícios JavaScript 🟨🦏
 
 Exercícios propostos para fixação de conhecimento sobre a linguagem de programação JavaScript durante a sprint 4.
 Os arquivos se encontram na pasta 'sprint4' do diretório.
