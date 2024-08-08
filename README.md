@@ -34,8 +34,8 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 **Carrinho**
 
-- GET /carrinho - Listar carrinhos cadastrados
-- POST /carrinho - Cadastrar carrinhos
+- GET /carrinhos - Listar carrinhos cadastrados
+- POST /carrinhos - Cadastrar carrinhos
 - GET /carrinhos/{\_id} - Buscar carrinho por ID
 - DELETE /carrinhos/concluir-compra - Ao concluir a compra, o carrinho é excluído
 - DELETE /carrinhos/cancelar-compra - Excluir carrinho e retornar produtos para estoque
@@ -97,16 +97,6 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 
 - Todos os casos e planejamento de testes estão disponibilizados pelo **Jira Atlassian** com a ferramenta **QAlity** para a organização dos casos de teste.
 
-#### Casos para automação de testes 🤖
-
-Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação:
-
-- Verificação para todos os status CODE
-- Verificar a validade Bearer Token de 10 minutos
-- Verificar se senha tenha entre 5 e 10 caracteres
-- Verificar se o email já foi cadastrado
-- Verificar se o login está funcionando corretamente
-
 #### Como foi executado a organização do projeto? 📂✔
 
 - Foi dividido em 4 epics para realizar a visão macro dos endpoints da API, utilizando a ferramenta Jira para realização do plano de teste e casos de testes.
@@ -120,6 +110,16 @@ Foram selecionados os fluxos principais da aplicação, que não podem parar par
   /carrinho
 
 Seus testes foram realizados com base aos critérios de aceitação das histórias de usuários.
+
+#### Casos para automação de testes 🤖
+
+Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação:
+
+- Verificação para todos os status CODE
+- Verificar a validade Bearer Token de 10 minutos
+- Verificar se senha tenha entre 5 e 10 caracteres
+- Verificar se o email já foi cadastrado
+- Verificar se o login está funcionando corretamente
 
 #
 
