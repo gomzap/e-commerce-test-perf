@@ -24,7 +24,7 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 - DELETE /usuarios/{\_id} - Excluir usuário
 - PUT /usuarios/{\_id} - Editar usuário
 
-**Produtos**
+**Produtos** - Consulte produtos cadastrados ou, como administrador, gerencie os produtos da loja
 
 - GET /produtos - Listar produtos cadastrados
 - POST /produtos - Cadastrar produto
@@ -32,7 +32,7 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 - DELETE /produtos/{\_id} - Excluir produto
 - PUT /produtos/{\_id} - Editar produto
 
-**Carrinho**
+**Carrinho** - Consulte os carrinhos cadastrados, faça um para o seu usuário e, no final, desista da compra pois estava só dando uma olhadinha
 
 - GET /carrinhos - Listar carrinhos cadastrados
 - POST /carrinhos - Cadastrar carrinhos
