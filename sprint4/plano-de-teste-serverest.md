@@ -6,7 +6,7 @@ Este documento apresenta o planejamento das atividades de testes do sistema e de
 
 #### Envolvidos
 
-Gabriel Oliveira
+Gabriel Oliveira Moreira
 CompassUOL PerfMerch 3
 
 #### Funcionalidade ou Módulos a serem testados
