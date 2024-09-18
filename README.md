@@ -44,38 +44,17 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 #### Tecnologias utilizadas
 
-- **Postman**
+- **JavaScript**
+- **K6**
 - **Jira Atlassian**
 - **RESTful API ServeRest**
+- **IDE VScode**
 - **Node.js**
-
-#### Como testar? 📑
-
-- Acessar a API <a href="https://compassuol.serverest.dev/" target="_blank">Serverest</a>
-- Instalar o <a href="https://www.postman.com/" target="_blank">Postman</a>
-- Instalar o Node.js
-
-##### ACESSE O **MAPA MENTAL** PRODUZIDO PARA ANÁLISE DA API <a href=" " target="_blank"> CLIQUE AQUI</a>!
-
-<img src="/assets/xmindServeRest.png">
+- **Postman**
 
 #
 
-O ServeRest permite o estudo de:
-
-    Verbos GET, POST, PUT e DELETE com persistência de dados
-    Teste de carga
-    Autenticação no header
-    Query string
-    Teste de schema json
-
-#### Configuração 💻
-
-**Online**
-
-Acesse https://serverest.dev para visualizar a documentação e as rotas disponíveis.
-
-    Essa é a melhor opção para quem não possui NPM e Docker na máquina ou não quer preocupar em gerenciar ambiente.
+#### Configuração da Serverest Local 💻
 
 **Localmente com NPM**
 
@@ -90,6 +69,35 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 <p align="center">
  <a href="https://npmjs.com/package/serverest"><img alt="serverest version" src="https://img.shields.io/npm/v/serverest?style=for-the-badge"></a>
 </p>
+
+#### Como testar os testes de performance com k6 🤖 🤖 🤖 🤖
+
+- Acessar a API de forma local local explicado nas configurações
+- Instalar o K6, instale o chocolatey e depois no terminal digite o comando dentro da pasta k6 serverest performace/serverest api:
+
+```
+choco install k6
+```
+
+- Para testar siga o path: k6 serverest performace/projeto-base-k6/tests, dentro do repositório, abra o prompt de comando e digite o comando:
+
+```
+k6 run fluxo-compra.js [test file name]
+```
+
+para testar o fluxo completo do e-commerce
+
+- Ou **postLogin.js** para testar o login, **postUsuarios.js** para testar cadastro dos usuários, **postProdutos.js** para testar cadastro de carrinho e **deleteCarrinho.js** para concluir a compra e deletar o carrinho.
+
+### Para alteração das métricas de testes
+
+- Como padrão no arquivo path: k6 serverest performace/projeto-base-k6/k6-config.js tem como métricas o teste smoke, para testar os diferentes tipos de testes, apenas descomente o teste que irá testar em específico como, /SMOKE TEST, /LOAD TEST, /STRESS TEST, /SPIKE TEST, /SOAK TEST
+
+#
+
+##### ACESSE O **MAPA MENTAL** PRODUZIDO PARA ANÁLISE DA API <a href=" " target="_blank"> CLIQUE AQUI</a>!
+
+<img src="/assets/xmindServeRest.png">
 
 #
 
@@ -109,9 +117,27 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
 
   /carrinho
 
-Seus testes foram realizados com base aos critérios de aceitação das histórias de usuários.
+Seus testes foram realizados com base nos critérios de aceitação das histórias de usuários.
 
-#### Casos para automação de testes 🤖
+#
+
+#### Como testar com Postman? 📑
+
+- Acessar a API <a href="https://compassuol.serverest.dev/" target="_blank">Serverest</a>
+- Instalar o <a href="https://www.postman.com/" target="_blank">Postman</a>
+- Instalar o Node.js
+
+O ServeRest permite o estudo de:
+
+    Verbos GET, POST, PUT e DELETE com persistência de dados
+    Teste de carga
+    Autenticação no header
+    Query string
+    Teste de schema json
+
+#
+
+### Casos para automação de testes no postman 🤖
 
 Foram selecionados os fluxos principais da aplicação, que não podem parar para serem selecionados a automação:
 
@@ -172,6 +198,7 @@ npm i -D mocha chai
 #### Contribuídor 📌
 
 - Gabriel Oliveira - Trilha Perfomance 2024
+- ChatGTP 4.0 - Como auxiliar para elaboração dos códigos em javascript em k6
 
 #
 
