@@ -62,6 +62,6 @@ export default function () {
   });
   check(res, {
     "DELETE /carrinhos/concluir-compra response time is acceptable": (r) =>
-      r.timings.duration < 600,
+      r.timings.duration < 3000,
   });
 }

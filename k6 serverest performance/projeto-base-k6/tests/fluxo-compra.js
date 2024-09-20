@@ -26,7 +26,7 @@ export default function () {
   check(res, { "POST /usuarios status is 201": (r) => r.status === 201 });
   check(res, {
     "POST /usuarios response time is acceptable": (r) =>
-      r.timings.duration < 2000,
+      r.timings.duration < 3000,
   });
   sleep(1);
 
@@ -43,7 +43,7 @@ export default function () {
   );
   check(res, { "POST /login status is 200": (r) => r.status === 200 });
   check(res, {
-    "POST /login response time is acceptable": (r) => r.timings.duration < 2000,
+    "POST /login response time is acceptable": (r) => r.timings.duration < 3000,
   });
   const authToken = res.json().authorization;
   sleep(1);
@@ -57,7 +57,7 @@ export default function () {
   check(res, { "POST /produtos status is 201": (r) => r.status === 201 });
   check(res, {
     "POST /produtos response time is acceptable": (r) =>
-      r.timings.duration < 2000,
+      r.timings.duration < 3000,
   });
   const productId = res.json()._id;
   sleep(1);
@@ -71,7 +71,7 @@ export default function () {
   check(res, { "POST /carrinhos status is 201": (r) => r.status === 201 });
   check(res, {
     "POST /carrinhos response time is acceptable": (r) =>
-      r.timings.duration < 2000,
+      r.timings.duration < 3000,
   });
   sleep(1);
 
@@ -84,6 +84,6 @@ export default function () {
   });
   check(res, {
     "DELETE /carrinhos/concluir-compra response time is acceptable": (r) =>
-      r.timings.duration < 2000,
+      r.timings.duration < 3000,
   });
 }

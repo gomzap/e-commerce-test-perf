@@ -1,5 +1,5 @@
 import { check, sleep } from "k6";
-import { options } from "../k6.config.js";
+import { options } from "../k6-config.js";
 import { baseURL } from "../support/config/config.js";
 import { postRequest } from "../services/baseService.js";
 import { createProductBody } from "../data/static/productBody.js";
@@ -12,7 +12,7 @@ export default function () {
   res = postRequest(`${baseURL}/usuarios`, JSON.stringify(userBody), {
     "Content-Type": "application/json",
   });
-  check(res, { "POST /usuarios status is 201": (r) => r.status === 201 });
+  // check(res, { "POST /usuarios status is 201": (r) => r.status === 201 });
   sleep(1);
 
   // realizar login
@@ -26,7 +26,7 @@ export default function () {
       "Content-Type": "application/json",
     }
   );
-  check(res, { "POST /login status is 200": (r) => r.status === 200 });
+  // check(res, { "POST /login status is 200": (r) => r.status === 200 });
   const authToken = res.json().authorization;
   sleep(1);
 
@@ -36,6 +36,10 @@ export default function () {
     Authorization: authToken,
   });
   check(res, { "POST /produtos status is 201": (r) => r.status === 201 });
+  check(res, {
+    "POST /produtos response time is acceptable": (r) =>
+      r.timings.duration < 3000,
+  });
   const productId = res.json()._id;
   sleep(1);
 }

@@ -1,5 +1,7 @@
 export const createProductBody = () => {
-  const productName = `Produto ${Math.floor(Math.random() * 9999999)}`;
+  const productName = `Nome do produto ${Math.floor(
+    Math.random() * 999999999999
+  )}`;
   return {
     nome: productName,
     preco: 99,

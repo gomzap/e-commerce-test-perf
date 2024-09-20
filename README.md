@@ -54,7 +54,7 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 #
 
-#### Configuração da Serverest Local 💻
+### Configuração da Serverest Local 💻
 
 **Localmente com NPM**
 
@@ -70,9 +70,9 @@ Para visualizar as configurações que são possíveis de serem feitas execute o
  <a href="https://npmjs.com/package/serverest"><img alt="serverest version" src="https://img.shields.io/npm/v/serverest?style=for-the-badge"></a>
 </p>
 
-#### Como testar os testes de performance com k6 🤖 🤖 🤖 🤖
+## Como testar os testes de performance com k6 🤖 🤖 🤖 🤖
 
-- Acessar a API de forma local local explicado nas configurações
+- Configure a API de forma local explicado nas configurações
 - Instalar o K6, instale o chocolatey e depois no terminal digite o comando dentro da pasta k6 serverest performace/serverest api:
 
 ```
@@ -87,11 +87,13 @@ k6 run fluxo-compra.js [test file name]
 
 para testar o fluxo completo do e-commerce
 
-- Ou **postLogin.js** para testar o login, **postUsuarios.js** para testar cadastro dos usuários, **postProdutos.js** para testar cadastro de carrinho e **deleteCarrinho.js** para concluir a compra e deletar o carrinho.
+- Ou **postLogin.js** para testar a rota login, **postUsuarios.js** para testar a rota para cadastro dos usuários, **postProdutos.js** para testar a rota para cadastro de carrinho e **deleteCarrinho.js** para concluir a compra e deletar o carrinho.
 
 ### Para alteração das métricas de testes
 
-- Como padrão no arquivo path: k6 serverest performace/projeto-base-k6/k6-config.js tem como métricas o teste smoke, para testar os diferentes tipos de testes, apenas descomente o teste que irá testar em específico como, /SMOKE TEST, /LOAD TEST, /STRESS TEST, /SPIKE TEST, /SOAK TEST
+- O arquivo projeto-base-k6/**k6-config.js** tem todas as métricas para a realização dos testes, para descomentar uma seção do código, utilize do atalho CTRL+K + CTRL U e para comentar outro CTRL+K + CTRL+C para tornar a realização dos testes um pouco mais conveniente.
+
+- Como padrão no arquivo path: k6 serverest performace/projeto-base-k6/**k6-config.js** tem como métricas pré-definidas o teste smoke, para testar os diferentes tipos de testes, apenas descomente o as linhas de teste que irá testar em específico como, /SMOKE TEST, /LOAD TEST, /STRESS TEST, /SPIKE TEST, /SOAK TEST
 
 #
 
@@ -195,10 +197,11 @@ Agora instale as bibliotecas **Mocha** e **Chai** no terminal
 npm i -D mocha chai
 ```
 
-#### Contribuídor 📌
+#### Contribuídores 📌
 
 - Gabriel Oliveira - Trilha Perfomance 2024
-- ChatGTP 4.0 - Como auxiliar para elaboração dos códigos em javascript em k6
+- ChatGTP 4.0 - Como auxiliar para elaboração dos códigos em javascript com k6
+- Equipe do PerfMerch3
 
 #
 
