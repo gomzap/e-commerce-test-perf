@@ -23,7 +23,7 @@ export function teardown() {
 
 //importar fuções setup e teardown nos testes!?
 
-//TEST.JS rafael FILE ->
+//TEST.JS example FILE ->
 
 // import http from "k6/http";
 // import { check, sleep } from "k6";

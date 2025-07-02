@@ -46,12 +46,8 @@ Esta API foi desenvolvida e utilizada para simplificar o aprendizado e prática 
 
 - **JavaScript**
 - **K6**
-- **Jira Atlassian**
 - **RESTful API ServeRest**
-- **IDE VScode**
 - **Node.js**
-- **Postman**
-
 #
 
 ### Configuração da Serverest Local 💻
@@ -97,8 +93,6 @@ para testar o fluxo completo do e-commerce
 
 #
 
-##### ACESSE O **MAPA MENTAL** PRODUZIDO PARA ANÁLISE DA API <a href=" " target="_blank"> CLIQUE AQUI</a>!
-
 <img src="/assets/xmindServeRest.png">
 
 #
@@ -123,19 +117,13 @@ Seus testes foram realizados com base nos critérios de aceitação das históri
 
 #
 
-#### Como testar com Postman? 📑
+#### A API permite o estudo de: 📑
 
-- Acessar a API <a href="https://compassuol.serverest.dev/" target="_blank">Serverest</a>
-- Instalar o <a href="https://www.postman.com/" target="_blank">Postman</a>
-- Instalar o Node.js
-
-O ServeRest permite o estudo de:
-
-    Verbos GET, POST, PUT e DELETE com persistência de dados
-    Teste de carga
-    Autenticação no header
-    Query string
-    Teste de schema json
+- Verbos GET, POST, PUT e DELETE com persistência de dados
+- Teste de carga
+- Autenticação no header
+- Query string
+- Teste de schema json
 
 #
 
@@ -151,26 +139,15 @@ Foram selecionados os fluxos principais da aplicação, que não podem parar par
 
 #
 
-#### Diretório do GitLab 🦊
-
-- Foi organizado em pastas com todo o conteúdo das sprints durante o programa de capacitação, na WIKI também é possível encontrar os arquivos da primeira sprint, templates e principais documentos do projeto.
-
 #### - Exercícios JavaScript 🟨🦏
 
-Exercícios propostos para fixação de conhecimento sobre a linguagem de programação JavaScript durante a sprint 4.
-Os arquivos se encontram na pasta 'sprint4' do diretório.
+Exercícios propostos para fixação de conhecimento sobre a linguagem de programação JavaScript.
 
 #### - Projeto Calculadora.js 🔢
 
 Projeto proposto de uma calculadora durante a sprint 4 com a finalidade de realização da instalação e funcionamento dos códigos com métodos robustos na classe calculadora.js e arquivos de teste com testes eficientes.
-Os arquivos se encontram na pasta 'sprint4' do diretório. Pode acessar a bateria de testes da calculadora com o seguinte caminho: sprint4 -> mochai-chai -> test -> calculadora-spec.js
 
 **Para instalar:**
-
-​​
-Versionamento pelo <a href="https://git-scm.com/" target="_blank">GIT</a>
-
-Instale uma IDE - <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>
 
 Instale o NodeJS - <a href="https://nodejs.org/en/download/" target="_blank">NodeJS</a>
 
@@ -200,12 +177,3 @@ npm i -D mocha chai
 #### Contribuídores 📌
 
 - Gabriel Oliveira - Trilha Perfomance 2024
-- ChatGTP 4.0 - Como auxiliar para elaboração dos códigos em javascript com k6
-- Equipe do PerfMerch3
-
-#
-
-<p align="center">
- <img alt="Logo da Compass Uol" src="https://user-images.githubusercontent.com/29241659/195455525-6d97e444-630e-45c6-92b9-50ea44f06590.png#gh-light-mode-only" height="80">
- <img alt="Logo da Compass Uol" src="https://user-images.githubusercontent.com/29241659/195455635-abb91250-8288-4d3a-a180-a9d37bffcba2.png#gh-dark-mode-only" height="80">
- </p>
